@@ -1,0 +1,919 @@
+[
+  {
+    "id": "q001",
+    "question": "What is the date of birth of Mina Gerhardsen's father?",
+    "answer": "13 June 1946",
+    "hop1": {
+      "subject": "Mina Gerhardsen",
+      "relation": "father",
+      "object": "Rune Gerhardsen",
+      "supporting_sentence": "Her Father is Rune Gerhardsen"
+    },
+    "hop2": {
+      "subject": "Rune Gerhardsen",
+      "relation": "date of birth",
+      "object": "13 June 1946",
+      "supporting_sentence": "Rune Gerhardsen is born in 13 June 1946."
+    }
+  },
+  {
+    "id": "q002",
+    "question": "What nationality is the director of film Wedding Night In Paradise (1950 Film)?",
+    "answer": "Hungarian",
+    "hop1": {
+      "subject": "Wedding Night in Paradise",
+      "relation": "director",
+      "object": "Géza von Bolváry",
+      "supporting_sentence": "Wedding Night in Paradise is directed by Géza von Bolváry"
+    },
+    "hop2": {
+      "subject": "Géza von Bolváry",
+      "relation": "country of citizenship",
+      "object": "Hungarian",
+      "supporting_sentence": "Géza von Bolváry was Hungarian"
+    }
+  },
+  {
+    "id": "q003",
+    "question": "When is the composer of film Sruthilayalu 's birthday?",
+    "answer": "14 March 1918",
+    "hop1": {
+      "subject": "Sruthilayalu",
+      "relation": "composer",
+      "object": "K. V. Mahadevan",
+      "supporting_sentence": "The film stars Rajasekhar and Sumalata with soundtrack composed by K. V. Mahadevan."
+    },
+    "hop2": {
+      "subject": "K. V. Mahadevan",
+      "relation": "date of birth",
+      "object": "14 March 1918",
+      "supporting_sentence": "Krishnankoil Venkadachalam Mahadevan was born on 14 March, 1918"
+    }
+  },
+  {
+    "id": "q004",
+    "question": "Who is Rhescuporis I (Odrysian)'s paternal grandfather?",
+    "answer": "Raizdos",
+    "hop1": {
+      "subject": "Rhescuporis I",
+      "relation": "father",
+      "object": "Cotys III",
+      "supporting_sentence": "Cotys III is the paternal father of Rhescuropis I (Odrysian)'s."
+    },
+    "hop2": {
+      "subject": "Cotys III",
+      "relation": "father",
+      "object": "Raizdos",
+      "supporting_sentence": "Cotys III's paternal father is Raizdos."
+    }
+  },
+  {
+    "id": "q005",
+    "question": "Where was the director of film The Fascist born?",
+    "answer": "Rome",
+    "hop1": {
+      "subject": "The Fascist",
+      "relation": "director",
+      "object": "Luciano Salce",
+      "supporting_sentence": "The Fascist is a 1961 Italian film directed by Luciano Salce."
+    },
+    "hop2": {
+      "subject": "Luciano Salce",
+      "relation": "place of birth",
+      "object": "Rome",
+      "supporting_sentence": "Luciano Salce was born in Rome, Italy on September 25, 1922."
+    }
+  },
+  {
+    "id": "q006",
+    "question": "Which country the performer of song Soldier (Neil Young Song) is from?",
+    "answer": "Canadian",
+    "hop1": {
+      "subject": "Soldier",
+      "relation": "performer",
+      "object": "Neil Young",
+      "supporting_sentence": "Performer of Soldier is Neil Young."
+    },
+    "hop2": {
+      "subject": "Neil Young",
+      "relation": "country of citizenship",
+      "object": "Canadian",
+      "supporting_sentence": "Neil Young is from Canada"
+    }
+  },
+  {
+    "id": "q007",
+    "question": "What nationality is the director of film Borunbabur Bondhu?",
+    "answer": "India",
+    "hop1": {
+      "subject": "Borunbabur Bondhu",
+      "relation": "director",
+      "object": "Anik Dutta",
+      "supporting_sentence": "Borunbabur Bondhu is a film directed by Anik Dutta."
+    },
+    "hop2": {
+      "subject": "Anik Dutta",
+      "relation": "country of citizenship",
+      "object": "India",
+      "supporting_sentence": "Anik Dutta was an Indian citizen."
+    }
+  },
+  {
+    "id": "q008",
+    "question": "Where was the place of burial of the performer of song There Is So Much World To See?",
+    "answer": "Graceland",
+    "hop1": {
+      "subject": "There Is So Much World to See",
+      "relation": "performer",
+      "object": "Elvis",
+      "supporting_sentence": "\" There Is So Much World to See\" is a film song by Elvis Presley."
+    },
+    "hop2": {
+      "subject": "Elvis",
+      "relation": "place of burial",
+      "object": "Graceland",
+      "supporting_sentence": "Elvis Presley was buried in Graceland."
+    }
+  },
+  {
+    "id": "q009",
+    "question": "What is the date of birth of the director of film Wandering Fires?",
+    "answer": "November 28, 1919",
+    "hop1": {
+      "subject": "Wandering Fires",
+      "relation": "director",
+      "object": "Maurice Campbell",
+      "supporting_sentence": "Wandering Fires is a 1925 silent film drama produced and directed by Maurice Campbell."
+    },
+    "hop2": {
+      "subject": "Maurice Campbell",
+      "relation": "date of birth",
+      "object": "November 28, 1919",
+      "supporting_sentence": "Maurice Campbell was born on November 28, 1919."
+    }
+  },
+  {
+    "id": "q010",
+    "question": "When did Fatima Bint Mubarak Al Ketbi's husband die?",
+    "answer": "2 November 2004",
+    "hop1": {
+      "subject": "Fatima bint Mubarak Al Ketbi",
+      "relation": "spouse",
+      "object": "Zayed bin Sultan Al Nahyan",
+      "supporting_sentence": "Mubarak Al Ketbi  is the third wife of Sheikh Zayed bin Sultan Al Nahyan."
+    },
+    "hop2": {
+      "subject": "Zayed bin Sultan Al Nahyan",
+      "relation": "date of death",
+      "object": "2 November 2004",
+      "supporting_sentence": "Sheikh Zayed bin Sultan Al Nahyan was died on 6 May, 1918."
+    }
+  },
+  {
+    "id": "q011",
+    "question": "When was the director of film Private Hell 36 born?",
+    "answer": "October 26, 1912",
+    "hop1": {
+      "subject": "Private Hell 36",
+      "relation": "director",
+      "object": "Don Siegel",
+      "supporting_sentence": "Private Hell 36 is directed by Don Siegel."
+    },
+    "hop2": {
+      "subject": "Don Siegel",
+      "relation": "date of birth",
+      "object": "October 26, 1912",
+      "supporting_sentence": "Donald Siegel was born on October 26, 1912."
+    }
+  },
+  {
+    "id": "q012",
+    "question": "Why did the founder of university University Of Birmingham die?",
+    "answer": "stroke",
+    "hop1": {
+      "subject": "University of Birmingham",
+      "relation": "founded by",
+      "object": "Joseph Chamberlain",
+      "supporting_sentence": "The University of Birmingham is founded by Joseph Chamberlain."
+    },
+    "hop2": {
+      "subject": "Joseph Chamberlain",
+      "relation": "cause of death",
+      "object": "stroke",
+      "supporting_sentence": "Joseph Chamberlain's death is caused by stroke."
+    }
+  },
+  {
+    "id": "q013",
+    "question": "When did the director of film An International Marriage die?",
+    "answer": "10 August 1960",
+    "hop1": {
+      "subject": "An International Marriage",
+      "relation": "director",
+      "object": "Frank Lloyd",
+      "supporting_sentence": "An International Marriage is directed by Frank Lloyd."
+    },
+    "hop2": {
+      "subject": "Frank Lloyd",
+      "relation": "date of death",
+      "object": "10 August 1960",
+      "supporting_sentence": "Frank William George died on August 10, 1960."
+    }
+  },
+  {
+    "id": "q014",
+    "question": "Which country the performer of song Miss Brown To You is from?",
+    "answer": "American",
+    "hop1": {
+      "subject": "Miss Brown to You",
+      "relation": "performer",
+      "object": "Billie Holiday",
+      "supporting_sentence": "The song Miss Brown to You was performed by Billie Holiday."
+    },
+    "hop2": {
+      "subject": "Billie Holiday",
+      "relation": "country of citizenship",
+      "object": "American",
+      "supporting_sentence": "Billie Holiday was an America citizen."
+    }
+  },
+  {
+    "id": "q015",
+    "question": "What is the place of birth of the director of film Prince Of The Plains?",
+    "answer": "Portland, Maine",
+    "hop1": {
+      "subject": "Prince of the Plains",
+      "relation": "director",
+      "object": "Philip Ford",
+      "supporting_sentence": "Prince of the Plains was directed by Philip Ford"
+    },
+    "hop2": {
+      "subject": "Philip Ford",
+      "relation": "place of birth",
+      "object": "Portland, Maine",
+      "supporting_sentence": "Philip Ford was born in Portland, Maine."
+    }
+  },
+  {
+    "id": "q016",
+    "question": "What is the date of birth of the director of film Just Like Heaven (Film)?",
+    "answer": "June 30, 1964",
+    "hop1": {
+      "subject": "Just Like Heaven",
+      "relation": "director",
+      "object": "Mark Waters",
+      "supporting_sentence": "Just Like Heaven was directed by Mark Waters."
+    },
+    "hop2": {
+      "subject": "Mark Waters",
+      "relation": "date of birth",
+      "object": "June 30, 1964",
+      "supporting_sentence": "Mark Waters was born on June 30, 1964."
+    }
+  },
+  {
+    "id": "q017",
+    "question": "When did the director of film A Whirlwind Of Whiskers die?",
+    "answer": "June 19, 1981",
+    "hop1": {
+      "subject": "A Whirlwind of Whiskers",
+      "relation": "director",
+      "object": "Alfred Santell",
+      "supporting_sentence": "A Whirlwind of Whiskers was directed by Alfred Santell."
+    },
+    "hop2": {
+      "subject": "Alfred Santell",
+      "relation": "date of death",
+      "object": "June 19, 1981",
+      "supporting_sentence": "Alfred Santell died on June 19, 1981 in Salinas, California."
+    }
+  },
+  {
+    "id": "q018",
+    "question": "Who is the mother-in-law of Andrew Murray (Scottish Soldier)?",
+    "answer": "Marjorie, Countess of Carrick",
+    "hop1": {
+      "subject": "Sir Andrew Murray",
+      "relation": "spouse",
+      "object": "Christina Bruce",
+      "supporting_sentence": "Sir Andrew Murray was married with Christina Bruce."
+    },
+    "hop2": {
+      "subject": "Christina Bruce",
+      "relation": "mother",
+      "object": "Marjorie, Countess of Carrick",
+      "supporting_sentence": "Christina Bruce's mother is Marjorie, Countess of Carrick."
+    }
+  },
+  {
+    "id": "q019",
+    "question": "Where was the director of film Ich Für Dich, Du Für Mich born?",
+    "answer": "Berlin",
+    "hop1": {
+      "subject": "Ich für dich, du für mich",
+      "relation": "director",
+      "object": "Carl Froelich",
+      "supporting_sentence": "Ich für dich, du für mich was directed by Carl Froelich."
+    },
+    "hop2": {
+      "subject": "Carl Froelich",
+      "relation": "place of birth",
+      "object": "Berlin",
+      "supporting_sentence": "Carl Froelich was died in Berlin."
+    }
+  },
+  {
+    "id": "q020",
+    "question": "When did the performer of song A Pretty Girl Milking Her Cow die?",
+    "answer": "June 22, 1969",
+    "hop1": {
+      "subject": "A Pretty Girl Milking Her Cow",
+      "relation": "performer",
+      "object": "Judy Garland",
+      "supporting_sentence": "The song A Pretty Girl Milking Her Cow was performed by Judy Garland"
+    },
+    "hop2": {
+      "subject": "Judy Garland",
+      "relation": "date of death",
+      "object": "June 22, 1969",
+      "supporting_sentence": "Judy Garland died on June 22, 1969."
+    }
+  },
+  {
+    "id": "q021",
+    "question": "When was the director of film Mr. Moto Takes A Chance born?",
+    "answer": "December 13, 1903",
+    "hop1": {
+      "subject": "Mr. Moto Takes a Chance",
+      "relation": "director",
+      "object": "Norman Foster",
+      "supporting_sentence": "Mr. Moto Takes a Chance was directed by Norman Foster."
+    },
+    "hop2": {
+      "subject": "Norman Foster",
+      "relation": "date of birth",
+      "object": "December 13, 1903",
+      "supporting_sentence": "Norman Foster died on December 13, 1903."
+    }
+  },
+  {
+    "id": "q022",
+    "question": "What is the place of birth of the director of film Secrets Of The Underground?",
+    "answer": "London",
+    "hop1": {
+      "subject": "Secrets of the Underground",
+      "relation": "director",
+      "object": "William Morgan",
+      "supporting_sentence": "Secrets of the Underground was directed by William Morgan."
+    },
+    "hop2": {
+      "subject": "William Morgan",
+      "relation": "place of birth",
+      "object": "London",
+      "supporting_sentence": "William Morgan was born in London."
+    }
+  },
+  {
+    "id": "q023",
+    "question": "When is the performer of song Behind The Ritual 's birthday?",
+    "answer": "31 August 1945",
+    "hop1": {
+      "subject": "Behind the Ritual",
+      "relation": "performer",
+      "object": "Van Morrison",
+      "supporting_sentence": "The song Behind the Ritual was performed by Van Morrison."
+    },
+    "hop2": {
+      "subject": "Van Morrison",
+      "relation": "date of birth",
+      "object": "31 August 1945",
+      "supporting_sentence": "Van Morrison was born on August 31, 1945."
+    }
+  },
+  {
+    "id": "q024",
+    "question": "Where was the director of film Rubber Racketeers born?",
+    "answer": "Portland, Oregon",
+    "hop1": {
+      "subject": "Rubber Racketeers",
+      "relation": "director",
+      "object": "Harold Young",
+      "supporting_sentence": "Rubber Racketeers was directed by Harold Young."
+    },
+    "hop2": {
+      "subject": "Harold Young",
+      "relation": "place of birth",
+      "object": "Portland, Oregon",
+      "supporting_sentence": "Harold Young was born in Portland, Oregon."
+    }
+  },
+  {
+    "id": "q025",
+    "question": "Where was the composer of film Avidathe Pole Ivideyum born?",
+    "answer": "Kerala",
+    "hop1": {
+      "subject": "Avidathe Pole Ivideyum",
+      "relation": "composer",
+      "object": "M. K. Arjunan",
+      "supporting_sentence": "The song Avidathre Pole Ivideyum was composed by M. K. Arjunan."
+    },
+    "hop2": {
+      "subject": "M. K. Arjunan",
+      "relation": "place of birth",
+      "object": "Kerala",
+      "supporting_sentence": "M. K. Arjunan was born in Kerala, India."
+    }
+  },
+  {
+    "id": "q026",
+    "question": "When is George Lamb (Politician)'s father's birthday?",
+    "answer": "29 January 1745",
+    "hop1": {
+      "subject": "George Lamb",
+      "relation": "father",
+      "object": "Peniston Lamb, 1st Viscount Melbourne",
+      "supporting_sentence": "George Lamb's father is Peniston Lamb, 1st Viscount Melbourne."
+    },
+    "hop2": {
+      "subject": "Peniston Lamb, 1st Viscount Melbourne",
+      "relation": "date of birth",
+      "object": "29 January 1745",
+      "supporting_sentence": "Peniston Lamb, 1st Viscount Melbourne was born on January 20, 1745."
+    }
+  },
+  {
+    "id": "q027",
+    "question": "Where was the place of death of the director of film Master Stroke?",
+    "answer": "Rome",
+    "hop1": {
+      "subject": "Master Stroke",
+      "relation": "director",
+      "object": "Michele Lupo",
+      "supporting_sentence": "Master Stroke was directed by Michele Lupo."
+    },
+    "hop2": {
+      "subject": "Michele Lupo",
+      "relation": "place of death",
+      "object": "Rome",
+      "supporting_sentence": "Michele Lupo died in Rome, Italy."
+    }
+  },
+  {
+    "id": "q028",
+    "question": "What nationality is the performer of song Hummingbird (1955 Song)?",
+    "answer": "America",
+    "hop1": {
+      "subject": "Hummingbird",
+      "relation": "performer",
+      "object": "Frankie Laine",
+      "supporting_sentence": "The song Hummingbird was performed by Frankie Laine."
+    },
+    "hop2": {
+      "subject": "Frankie Laine",
+      "relation": "country of citizenship",
+      "object": "America",
+      "supporting_sentence": "Frankie Laine was a citizen of America."
+    }
+  },
+  {
+    "id": "q029",
+    "question": "Where did Mirza Farkhunda Shah's father die?",
+    "answer": "Rangoon",
+    "hop1": {
+      "subject": " Shah",
+      "relation": "father",
+      "object": "Bahadur Shah II",
+      "supporting_sentence": "Mirza Farkhunda Shas's father is Bahadur Shah II."
+    },
+    "hop2": {
+      "subject": "Bahadur Shah II",
+      "relation": "place of death",
+      "object": "Rangoon",
+      "supporting_sentence": "Bahadur Shah II died in Rangoon."
+    }
+  },
+  {
+    "id": "q030",
+    "question": "Where did Lamprocles's father die?",
+    "answer": "Athens",
+    "hop1": {
+      "subject": "Lamprocles",
+      "relation": "father",
+      "object": "Socrates",
+      "supporting_sentence": "Lamprocles's father is Socrates."
+    },
+    "hop2": {
+      "subject": "Socrates",
+      "relation": "place of death",
+      "object": "Athens",
+      "supporting_sentence": "Socrates died in Athens."
+    }
+  },
+  {
+    "id": "q031",
+    "question": "When did the director of film The First Mass die?",
+    "answer": "23 November 1982",
+    "hop1": {
+      "subject": "The First Mass",
+      "relation": "director",
+      "object": "Lima Barreto",
+      "supporting_sentence": "The First Mass was directed by Lima Barreto."
+    },
+    "hop2": {
+      "subject": "Lima Barreto",
+      "relation": "date of death",
+      "object": "23 November 1982",
+      "supporting_sentence": "Lima Barreto was born on 23 Novenber 1982."
+    }
+  },
+  {
+    "id": "q032",
+    "question": "What is the date of death of the director of film Escape To France?",
+    "answer": "19 June 1999",
+    "hop1": {
+      "subject": "Escape to France",
+      "relation": "director",
+      "object": "Mario Soldati",
+      "supporting_sentence": "Escape to France was directed by Mario Soldati."
+    },
+    "hop2": {
+      "subject": "Mario Soldati",
+      "relation": "date of death",
+      "object": "19 June 1999",
+      "supporting_sentence": "Mario Soldati died on 19 June 1999."
+    }
+  },
+  {
+    "id": "q033",
+    "question": "Which country the director of film Death And Diamonds (Film) is from?",
+    "answer": "Austria",
+    "hop1": {
+      "subject": "Death and Diamonds",
+      "relation": "director",
+      "object": "Harald Reinl",
+      "supporting_sentence": "Death and Diamonds was directed by Harald Reinl."
+    },
+    "hop2": {
+      "subject": "Harald Reinl",
+      "relation": "country of citizenship",
+      "object": "Austria",
+      "supporting_sentence": "Harald Reinl was a citizen of Austria."
+    }
+  },
+  {
+    "id": "q034",
+    "question": "When is the director of film The Voice In The Fog 's birthday?",
+    "answer": "February 24, 1880",
+    "hop1": {
+      "subject": "The Voice in the Fog",
+      "relation": "director",
+      "object": "J. P. McGowan",
+      "supporting_sentence": "The Voice in the Fog was directed by J. P. McGowan."
+    },
+    "hop2": {
+      "subject": "J. P. McGowan",
+      "relation": "date of birth",
+      "object": "February 24, 1880",
+      "supporting_sentence": "J. P. McGowan was born on February 24, 1880."
+    }
+  },
+  {
+    "id": "q035",
+    "question": "When is the director of film Eclipse Of Reason 's birthday?",
+    "answer": "July 31, 1926",
+    "hop1": {
+      "subject": "Eclipse of Reason",
+      "relation": "director",
+      "object": "Bernard Nathanson",
+      "supporting_sentence": "Eclipse of Reason was directed by Bernard Nathanson."
+    },
+    "hop2": {
+      "subject": "Bernard Nathanson",
+      "relation": "date of birth",
+      "object": "July 31, 1926",
+      "supporting_sentence": "Bernard Nathanson was born on July 31, 1926."
+    }
+  },
+  {
+    "id": "q036",
+    "question": "Where did the director of film Skinner Steps Out die?",
+    "answer": "Hollywood",
+    "hop1": {
+      "subject": "Skinner Steps Out",
+      "relation": "director",
+      "object": "William James Craft",
+      "supporting_sentence": "Skinner Steps Out was directed by William James Craft."
+    },
+    "hop2": {
+      "subject": "William James Craft",
+      "relation": "place of death",
+      "object": "Hollywood",
+      "supporting_sentence": "William James Craft died in auto accident in Hollywood, California."
+    }
+  },
+  {
+    "id": "q037",
+    "question": "What is the cause of death of director of film Road Kill (2010 Film)?",
+    "answer": "cancer",
+    "hop1": {
+      "subject": "Road Kill",
+      "relation": "director",
+      "object": "Dean Francis",
+      "supporting_sentence": "Road Kill was directed by Dean Francis."
+    },
+    "hop2": {
+      "subject": "Dean Francis",
+      "relation": "cause of death",
+      "object": "cancer",
+      "supporting_sentence": "Death of Dean Francis was caused by cancer."
+    }
+  },
+  {
+    "id": "q038",
+    "question": "Which country the composer of song Every Day I Have To Cry (Song) is from?",
+    "answer": "America",
+    "hop1": {
+      "subject": "Every Day I Have to Cry",
+      "relation": "composer",
+      "object": "Arthur Alexander",
+      "supporting_sentence": "The song Every Day I Have to Cry was composed by Arthur Alexander."
+    },
+    "hop2": {
+      "subject": "Arthur Alexander",
+      "relation": "country of citizenship",
+      "object": "America",
+      "supporting_sentence": "Arthur Alexander was a citizen of America."
+    }
+  },
+  {
+    "id": "q039",
+    "question": "Where was the director of film Gaon Hamara Shaher Tumhara born?",
+    "answer": "Lahore",
+    "hop1": {
+      "subject": "Gaon Hamara Shaher Tumhara",
+      "relation": "director",
+      "object": "Naresh Kumar",
+      "supporting_sentence": "Gaon Hamara Shaher Tumhara was directed by Naresh Kumar."
+    },
+    "hop2": {
+      "subject": "Naresh Kumar",
+      "relation": "place of birth",
+      "object": "Lahore",
+      "supporting_sentence": "Naresh Kumar was born in Lahore."
+    }
+  },
+  {
+    "id": "q040",
+    "question": "What is the place of birth of Abdullah Ibn Hasan's father?",
+    "answer": "Medina",
+    "hop1": {
+      "subject": "Abdullah ibn Hasan",
+      "relation": "father",
+      "object": "Hasan ibn Ali",
+      "supporting_sentence": "Abdullah ibn Hasan's father is Hasan ibn Ali."
+    },
+    "hop2": {
+      "subject": "Hasan ibn Ali",
+      "relation": "place of birth",
+      "object": "Medina",
+      "supporting_sentence": "Hasan ibn Ali was born in Medina."
+    }
+  },
+  {
+    "id": "q041",
+    "question": "What is the date of death of the director of film Shocking Asia?",
+    "answer": "3 April 1998",
+    "hop1": {
+      "subject": "Shocking Asia",
+      "relation": "director",
+      "object": "Rolf Olsen",
+      "supporting_sentence": "Shocking Asia was directed by Rolf Olsen."
+    },
+    "hop2": {
+      "subject": "Rolf Olsen",
+      "relation": "date of death",
+      "object": "3 April 1998",
+      "supporting_sentence": "Rolf Olsen died on 3 April 1998."
+    }
+  },
+  {
+    "id": "q042",
+    "question": "When is the director of film Three Men And A Little Lady 's birthday?",
+    "answer": "May 9, 1943",
+    "hop1": {
+      "subject": "Three Men and a Little Lady",
+      "relation": "director",
+      "object": "Emile Ardolino",
+      "supporting_sentence": "Three Men and a Little Lady was directed by Emile Ardolino."
+    },
+    "hop2": {
+      "subject": "Emile Ardolino",
+      "relation": "date of birth",
+      "object": "May 9, 1943",
+      "supporting_sentence": "Emile Ardolino was born on May 9, 1943."
+    }
+  },
+  {
+    "id": "q043",
+    "question": "What is the date of birth of the director of film Pola X?",
+    "answer": "22 November 1960",
+    "hop1": {
+      "subject": "Pola X",
+      "relation": "director",
+      "object": "Leos Carax",
+      "supporting_sentence": "Pola X was directed by Leos Carax."
+    },
+    "hop2": {
+      "subject": "Leos Carax",
+      "relation": "date of birth",
+      "object": "22 November 1960",
+      "supporting_sentence": "Leos Carax was born on 22 November 1960."
+    }
+  },
+  {
+    "id": "q044",
+    "question": "When is the director of film The Virginian (1923 Film) 's birthday?",
+    "answer": "February 22, 1893",
+    "hop1": {
+      "subject": "The Virginian",
+      "relation": "director",
+      "object": "Tom Forman",
+      "supporting_sentence": "The Virginian was directed by Tom Forman."
+    },
+    "hop2": {
+      "subject": "Tom Forman",
+      "relation": "date of birth",
+      "object": "February 22, 1893",
+      "supporting_sentence": "Tom Forman was born on February 22, 1893."
+    }
+  },
+  {
+    "id": "q045",
+    "question": "What nationality is Pamela Chopra's husband?",
+    "answer": "India",
+    "hop1": {
+      "subject": "Pamela Chopra",
+      "relation": "spouse",
+      "object": "Yash Chopra",
+      "supporting_sentence": "Pamela Chopra was married with Yash Chopra."
+    },
+    "hop2": {
+      "subject": "Yash Chopra",
+      "relation": "country of citizenship",
+      "object": "India",
+      "supporting_sentence": "Yash Raj Chopra was citizen of India."
+    }
+  },
+  {
+    "id": "q046",
+    "question": "What is the cause of death of director of film Call Her Savage?",
+    "answer": "heart attack",
+    "hop1": {
+      "subject": "Call Her Savage",
+      "relation": "director",
+      "object": "John Francis Dillon",
+      "supporting_sentence": "Call Her Savage Was John Francis Dillon."
+    },
+    "hop2": {
+      "subject": "John Francis Dillon",
+      "relation": "cause of death",
+      "object": "heart attack",
+      "supporting_sentence": "Death of John Francis Dillon was caused by a heart attack."
+    }
+  },
+  {
+    "id": "q047",
+    "question": "When did Prince Henry, Duke Of Cumberland And Strathearn's mother die?",
+    "answer": "8 February 1772",
+    "hop1": {
+      "subject": "Prince Henry, Duke of Cumberland and Strathearn",
+      "relation": "mother",
+      "object": "Princess Augusta of Saxe-Gotha",
+      "supporting_sentence": "Prince Henry, Duke of Cumberland and Strathearn's mother is Princess Augusta of Saxe-Gotha."
+    },
+    "hop2": {
+      "subject": "Princess Augusta of Saxe-Gotha",
+      "relation": "date of death",
+      "object": "8 February 1772",
+      "supporting_sentence": "Princess Augusta of Saxe-Gotha died on 8 February 1772."
+    }
+  },
+  {
+    "id": "q048",
+    "question": "What is the place of birth of the director of film Ruang Talok 69?",
+    "answer": "Bangkok",
+    "hop1": {
+      "subject": "Ruang Talok 69",
+      "relation": "director",
+      "object": "Pen-Ek Ratanaruang",
+      "supporting_sentence": "Ruang Talok 69 was directed by Pen-Ek Ratanaruang."
+    },
+    "hop2": {
+      "subject": "Pen-Ek Ratanaruang",
+      "relation": "place of birth",
+      "object": "Bangkok",
+      "supporting_sentence": "Pen-Ek Ratanaruang was born in Bangkok, Thailand."
+    }
+  },
+  {
+    "id": "q049",
+    "question": "Where was the composer of film Marikkunnilla Njan born?",
+    "answer": "Kulathupuzha",
+    "hop1": {
+      "subject": "Marikkunnilla Njan",
+      "relation": "composer",
+      "object": "Raveendran",
+      "supporting_sentence": "The song Marikkunnilla Njan was composed by Raveendran."
+    },
+    "hop2": {
+      "subject": "Raveendran",
+      "relation": "place of birth",
+      "object": "Kulathupuzha",
+      "supporting_sentence": "Raveendran was bonr in Kulathupuzha."
+    }
+  },
+  {
+    "id": "q050",
+    "question": "Where was the director of film The Sporting Duchess (1915 Film) born?",
+    "answer": "New York",
+    "hop1": {
+      "subject": "The Sporting Duchess",
+      "relation": "director",
+      "object": "Barry O'Neil",
+      "supporting_sentence": "The Sporting Duchess was directed by Barry O'Neil."
+    },
+    "hop2": {
+      "subject": "Barry O'Neil",
+      "relation": "place of birth",
+      "object": "New York",
+      "supporting_sentence": "Barry O'Neil was born in New York."
+    }
+  },
+  {
+    "id": "q051",
+    "question": "When is the director of film Buried Treasure (1921 Film) 's birthday?",
+    "answer": "April 22, 1868",
+    "hop1": {
+      "subject": "Buried Treasure",
+      "relation": "director",
+      "object": "George D. Baker",
+      "supporting_sentence": "Buried Treasure directed by George D. Baker."
+    },
+    "hop2": {
+      "subject": "George D. Baker",
+      "relation": "date of birth",
+      "object": "April 22, 1868",
+      "supporting_sentence": "George D. Baker was born on April 22, 1868."
+    }
+  },
+  {
+    "id": "q052",
+    "question": "Which country the director of film On The Riviera is from?",
+    "answer": "American",
+    "hop1": {
+      "subject": "On the Riviera",
+      "relation": "director",
+      "object": "Walter Lang",
+      "supporting_sentence": "It was directed by Walter Lang, produced by Sol C. Siegel from a screenplay by Valentine Davies and Phoebe and Henry Ephron, based on the play \"The Red Cat\" by..."
+    },
+    "hop2": {
+      "subject": "Walter Lang",
+      "relation": "country of citizenship",
+      "object": "American",
+      "supporting_sentence": "Walter Lang (August 10, 1896 – February 7, 1972) was an American film director."
+    }
+  },
+  {
+    "id": "q053",
+    "question": "Where did the director of film Evelyn'S Love Adventures die?",
+    "answer": "Munich",
+    "hop1": {
+      "subject": "Evelyn's Love Adventures",
+      "relation": "director",
+      "object": "Richard Eichberg",
+      "supporting_sentence": "Evelyn's Love Adventures (German: Die Liebesabenteuer der schönen Evelyne) is a 1921 German silent thriller film directed by Richard Eichberg and starring Lee..."
+    },
+    "hop2": {
+      "subject": "Richard Eichberg",
+      "relation": "place of death",
+      "object": "Munich",
+      "supporting_sentence": "He was born in Berlin, Germany and died in Munich, Germany."
+    }
+  },
+  {
+    "id": "q054",
+    "question": "When was the director of film Blindfold (1966 Film) born?",
+    "answer": "February 11, 1908",
+    "hop1": {
+      "subject": "Blindfold",
+      "relation": "director",
+      "object": "Philip Dunne",
+      "supporting_sentence": null
+    },
+    "hop2": {
+      "subject": "Philip Dunne",
+      "relation": "date of birth",
+      "object": "February 11, 1908",
+      "supporting_sentence": null
+    }
+  }
